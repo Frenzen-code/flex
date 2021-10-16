@@ -1,0 +1,86 @@
+.topbar{
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 0 20%;
+    padding-top: 1%;
+}
+
+.banner{
+    background-color: #1f2937;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5% 20%;
+    
+}
+body{
+    font-family: sans-serif;
+}
+
+.cadre{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    gap: 10px;
+    
+}
+.website{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.little{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup{
+display: flex;
+background-color:#3882f6;
+color: white;
+padding: 3px 3px;
+margin-right: 70%;
+align-items: center;
+justify-content: center;
+}
+
+
+.image{
+    background-color:lightgray;
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px ;
+
+
+}
+
+.square  { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carre {
+    border-style: inset;
+    border-width: 10px;
+    border-color:#3882f6;
+    padding: 90px 100px; 
+    margin: 0 23px;
+}   
